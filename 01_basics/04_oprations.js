@@ -48,4 +48,11 @@ let n = new Number(10);
 
 console.log(m == n);
 
+console.log(".................Compare......................");
 
+
+let number1 = 5
+let number2 = 5
+let number3 = 6
+
+console.log(number1 === number2);
