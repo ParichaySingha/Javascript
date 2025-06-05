@@ -21,3 +21,9 @@ console.log(booleanIsLoggedIn)
 // if set a variable to a number, it will be true
 // if set a variable to an empty string, it will be false
 // if set a variable to 0, it will be false
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+console.log(stringNumber) // "33"
+console.log(typeof stringNumber) // string
