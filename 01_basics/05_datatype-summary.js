@@ -39,3 +39,35 @@ console.log(typeof heros);
 let x = (16 + 4) + "Parichay"
 
 console.log(x);
+
+
+
+
+
+
+//......................................
+// Stack(Primitive) vs Heap (Reference or Non_primitive)
+
+// Stack : Primitive data types are stored in stack memory
+
+// Heap : Non-primitive data types are stored in heap memory
+
+let myFristName = "Parichay"
+
+let anotherName = myFristName
+anotherName = "Hitesh"
+
+console.log(myFristName); // Parichay
+console.log(anotherName); // Hitesh
+
+let userOne = {
+  email: "userone@example.com",
+  upi: "userone@upi"
+}
+
+let userTwo = userOne
+userTwo.email = "parichay@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
